@@ -1,8 +1,119 @@
-#header{
-    color: aquamarine;
-    background-color: black;
+.zcool-xiaowei-regular {
+    font-family: "ZCOOL XiaoWei", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+body{
+    font-family: "ZCOOL XiaoWei", serif;
+    width: 70%;
+    display:block;
+    text-align: center;
+    margin: 0px auto;
+}  
+*{
+    margin: 0;
+    padding: 0;
 }
-#header ul{
+header{
+    background-color: #030303;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header div button{
+    background-color: #030303;
+    color: #FF5E58;
+    border-radius: 10px;
+    border-color: #FF5E58;
+    padding: 10px;
+    font-family: "ZCOOL XiaoWei", serif;
+}
+header div button:hover{
+    background-color: #FF5E58;
+    color: #030303;
+    cursor: pointer;
+}
+header div ul li{
     display: inline;
-    
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+header div ul{
+    display: flex;
+}
+header div ul li a{
+    text-decoration: none;
+    color: white;
+}
+header div ul li a:hover{
+    color: #FF5E58;
+}
+header div span div{
+    color: #ff5e58;
+    display: inline;
+}
+header div span{
+    font-size: x-large;
+    cursor: pointer;
+}
+#content1{
+    display: flex;
+    background-color: #030303;
+    color: white;
+}
+.contentofme{
+    display: inline-block;
+    align-items: center;
+}
+.photoofme{
+    display: inline;
+}
+#content1 h3,h1,p{
+    padding: 20px;
+    margin-left: 20px;
+    text-align: left;
+
+}
+#content1 p{
+    color: #34373A;
+}
+#content2 p{
+    color: #34373A;
+}
+#content1{
+    color: #E1DDD6;
+}
+#content2 h1{
+    font-size: 30px;
+    color: #FF5E58;
+}
+#content2{
+    background-color: #111111;
+    color: white;
+}
+.content2{
+    margin: 0;
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+}
+#lable1content{
+    background-color: #111111;
+}
+.imageofme{
+    text-align: left;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+
+}
+.photoofme1{
+    display: flex;
+}
+.contentofmeintheportfolio{
+    text-align: left;
 }
