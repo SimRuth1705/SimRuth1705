@@ -116,4 +116,10 @@ header div span{
 }
 .contentofmeintheportfolio{
     text-align: left;
+
+}
+.linkstocontactme{
+    color: #FF5E58;
+    font-size: 30px;
+    padding: 20px;
 }
