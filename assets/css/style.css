@@ -151,21 +151,3 @@ header div span{
     text-align: center;
     font-size: larger;
 }
-#content3 button{
-    background-color: #030303;
-    color: #FF5E58;
-    cursor: pointer;
-    padding: 20px 40px;
-    letter-spacing: 5px;
-    margin-bottom: 20px;
-    display: inline-block;
-    border-radius: 10px;
-    border-color: #FF5E58;
-    font-family: "ZCOOL XiaoWei", serif;
-    font-weight: bolder;
-}
-#content3 button:hover {
-    background-color: #FF5E58;
-    color: #030303;
-    cursor: pointer;
-}
