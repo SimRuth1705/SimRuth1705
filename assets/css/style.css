@@ -140,13 +140,16 @@ header div span{
     background-color: #030303;
     height: 100%;
 }
-#content3 h1,h3{
+#content3 h3{
+    padding: 20px;
     color: #FF5E58;
     display: block;
     text-align: center;
 }
-#content3 h3{
-    padding: 20px;
+#content3 h1{
+    color: white;
+    text-align: center;
+    font-size: larger;
 }
 #content3 button{
     background-color: #030303;
