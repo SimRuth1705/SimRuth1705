@@ -56,6 +56,11 @@ header div span div{
     color: #ff5e58;
     display: inline;
 }
+header div a{
+    color: white;
+    display: inline;
+    text-decoration: none;
+}
 header div span{
     font-size: x-large;
     cursor: pointer;
