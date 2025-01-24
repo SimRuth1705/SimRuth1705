@@ -217,4 +217,8 @@ header div span{
         width: 90%;
         display: inline;
     }
+    .contentofme{
+        display: inline-block;
+        margin-bottom: 20px;
+    }
 }
