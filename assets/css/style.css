@@ -77,6 +77,11 @@ header div span{
 .photoofme{
     display: inline;
 }
+.photoofme img{
+    height: 400px;
+    margin: 15px;
+    display: inline;
+}
 #content1 h3,h1,p{
     padding: 20px;
     margin-left: 20px;
@@ -119,6 +124,10 @@ header div span{
 .photoofme1{
     display: flex;
 }
+.imageofme {
+    height: 400px;
+    text-align: left;
+}
 .contentofmeintheportfolio{
     text-align: left;
 
@@ -150,4 +159,71 @@ header div span{
     color: white;
     text-align: center;
     font-size: larger;
+}
+
+/* mobile screen */
+@media screen and (max-width:600px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: "ZCOOL XiaoWei", serif;
+        width: 100%;
+        background-color: #030303;
+        align-items: center;
+    }  
+    header{
+        width: ;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    img{
+        height:10px;
+        width: 100%;
+    }
+    #content1{
+        display: inline-block;
+        background-color: #030303;
+        color: white;
+        width:100%;
+        margin-bottom: 20px;
+    }
+    #content1 h3,h1,p{
+        padding: 20px;
+        margin-left: 0px;
+        text-align: left;
+    
+    }
+    header div ul li{
+        display: none;
+        text-decoration: none;
+    }
+    header div ul{
+        display: flex;
+    }
+    .contentofmeintheportfolio{
+        display: inline;
+    }
+    .photoofme img{
+        display: none;
+        border-radius: 10px;
+    }
+    .photoofme1{
+        display: inline;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+
+    }
+    .imageofme {
+        height: auto;
+        text-align: left;
+        padding: 0;
+        margin: 0;
+        width: 90%;
+        display: inline;
+    }
 }
