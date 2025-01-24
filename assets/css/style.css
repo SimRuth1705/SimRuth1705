@@ -77,11 +77,6 @@ header div span{
 .photoofme{
     display: inline;
 }
-.photoofme img{
-    height: 400px;
-    margin: 15px;
-    display: inline;
-}
 #content1 h3,h1,p{
     padding: 20px;
     margin-left: 20px;
@@ -123,10 +118,6 @@ header div span{
 }
 .photoofme1{
     display: flex;
-}
-.imageofme {
-    height: 400px;
-    text-align: left;
 }
 .contentofmeintheportfolio{
     text-align: left;
@@ -185,7 +176,7 @@ header div span{
         width: 100%;
     }
     #content1{
-        display: inline-block;
+        display: inline;
         background-color: #030303;
         color: white;
         width:100%;
