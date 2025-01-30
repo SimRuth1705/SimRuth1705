@@ -2,7 +2,8 @@
     font-family: "ZCOOL XiaoWei", serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
+
 body{
     font-family: "ZCOOL XiaoWei", serif;
     width: 70%;
@@ -153,6 +154,43 @@ header div span{
     text-align: center;
     font-size: larger;
 }
+.button{
+    padding: 10px;
+    text-decoration: solid;
+    font-weight: bolder;
+    border-radius: 30px;
+    background-color: #030303;
+    color: #FF5E58;
+    border: 1px solid #FF5E58
+}
+.button:hover{
+    background-color: #FF5E58;
+    color: #E1DDD6;
+}
+#services{
+    background-color: white;
+    color: #E1DDD6;
+    display: flex;
+}
+.equally{
+    padding: 10px;
+    margin: 10px;
+    margin-left: 0px;
+    background-color: #030303;
+    border-radius: 5px;
+    width: 50%;
+    height: 300px;
+    align-content: space-evenly;
+}
+#content-equally{
+    text-align: left;
+}
+.item{
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #030303;
+    border-radius: 5px;
+}
 
 /* mobile screen */
 @media screen and (max-width:600px) {
@@ -217,7 +255,6 @@ header div span{
         margin: 0;
         width: 90%;
         display: inline-block;
-        height:400px;
     }
     .contentofme{
         display: inline-block;
